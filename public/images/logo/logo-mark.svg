@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" fill="none">
+  <defs>
+    <linearGradient id="markGold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FCEBA4" />
+      <stop offset="35%" stop-color="#D4AF37" />
+      <stop offset="70%" stop-color="#AA771C" />
+      <stop offset="100%" stop-color="#F5D88A" />
+    </linearGradient>
+  </defs>
+
+  <!-- Outer Ring -->
+  <circle cx="60" cy="60" r="56" stroke="url(#markGold)" stroke-width="1.5" stroke-dasharray="4 3" opacity="0.6" />
+  <circle cx="60" cy="60" r="52" stroke="url(#markGold)" stroke-width="2" />
+  <circle cx="60" cy="60" r="46" stroke="url(#markGold)" stroke-width="1" opacity="0.8" />
+  
+  <!-- Shutter Blades (Aperture) -->
+  <g transform="translate(60, 60)">
+    <path d="M-40 -10 Q-15 -35 0 -44 Q15 -30 25 -15" stroke="url(#markGold)" stroke-width="1.5" fill="none" opacity="0.7"/>
+    <path d="M25 -15 Q40 5 44 20 Q20 35 5 44" stroke="url(#markGold)" stroke-width="1.5" fill="none" opacity="0.7"/>
+    <path d="M5 44 Q-20 40 -35 25 Q-40 0 -40 -10" stroke="url(#markGold)" stroke-width="1.5" fill="none" opacity="0.7"/>
+
+    <!-- Central Monogram: N K -->
+    <text x="-2" y="11" font-family="'Cinzel', 'Playfair Display', serif" font-size="34" font-weight="700" fill="url(#markGold)" text-anchor="middle" letter-spacing="1">NK</text>
+    
+    <circle cx="0" cy="-44" r="2" fill="#FFF2B2" />
+    <circle cx="44" cy="0" r="2" fill="#FFF2B2" />
+    <circle cx="0" cy="44" r="2" fill="#FFF2B2" />
+    <circle cx="-44" cy="0" r="2" fill="#FFF2B2" />
+  </g>
+</svg>
